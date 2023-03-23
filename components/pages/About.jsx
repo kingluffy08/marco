@@ -16,14 +16,14 @@ function About() {
 		{
 			id: 1,
 			title: "Beef Cutlet with Spring Onion",
-			img: "/../public/assets/img/about/s2.jpg",
+			img: ".././/../public/assets/img/about/s2.jpg",
 			description:
 				"inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.",
 		},
 		{
 			id: 2,
 			title: "Meat with sauce & Vegetables",
-			img: "/../public/assets/img/about/s3.jpg",
+			img: ".././/../public/assets/img/about/s3.jpg",
 			description:
 				"inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.",
 		},

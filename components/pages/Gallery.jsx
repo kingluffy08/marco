@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import Image from "next/image";
-
+import g1 from ".././/../public/assets/img/g1.jpg";
+import g2 from ".././/../public/assets/img/g2.jpg";
+import g3 from ".././/../public/assets/img/g3.jpg";
+import g4 from ".././/../public/assets/img/g4.jpg";
+import g5 from ".././/../public/assets/img/g5.jpg";
+import g6 from ".././/../public/assets/img/g6.jpg";
 export default function Gallery() {
 	const [allGallery, setAllGallery] = useState(0);
 	const menus = [
@@ -10,7 +15,7 @@ export default function Gallery() {
 			description:
 				"Usage of the Internet is becoming more common due to rapid advance.",
 			type: "breakfast",
-			img: "/assets/img/g1.jpg",
+			img: g1,
 			id: 0,
 		},
 		{
@@ -19,7 +24,7 @@ export default function Gallery() {
 			description:
 				"Usage of the Internet is becoming more common due to rapid advance.",
 			type: "breakfast",
-			img: "/assets/img/g2.jpg",
+			img: g2,
 			id: 1,
 		},
 		{
@@ -28,7 +33,7 @@ export default function Gallery() {
 			description:
 				"Usage of the Internet is becoming more common due to rapid advance.",
 			type: "lunch",
-			img: "/assets/img/g3.jpg",
+			img: g3,
 			id: 2,
 		},
 		{
@@ -37,7 +42,7 @@ export default function Gallery() {
 			description:
 				"Usage of the Internet is becoming more common due to rapid advance.",
 			type: "dinner",
-			img: "/assets/img/g4.jpg",
+			img: g4,
 			id: 3,
 		},
 		{
@@ -46,7 +51,7 @@ export default function Gallery() {
 			description:
 				"Usage of the Internet is becoming more common due to rapid advance.",
 			type: "budget",
-			img: "/assets/img/g5.jpg",
+			img: g5,
 			id: 4,
 		},
 		{
@@ -55,7 +60,7 @@ export default function Gallery() {
 			description:
 				"Usage of the Internet is becoming more common due to rapid advance.",
 			type: "buffet",
-			img: "/assets/img/g6.jpg",
+			img: g6,
 			id: 5,
 		},
 	];
@@ -145,8 +150,8 @@ export default function Gallery() {
 							<Image
 								className="border-2 border-red-500 rounded-md"
 								src={galleryFilter.img}
-								height="50"
-								width="300"
+								height={50}
+								width={300}
 								alt={galleryFilter.title}
 							/>
 						</div>

@@ -5,6 +5,7 @@ import { FaBars } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
 import topBanner from ".././/../public/assets/img/top-banner.jpg";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import logo from "..//../public/assets/img/logo.png";
 
 function Header({ title }) {
 	const [onMobile, setOnMobile] = useState(false);
@@ -30,13 +31,7 @@ function Header({ title }) {
 		>
 			<div className="bg-black/40 px-6">
 				<div className="flex justify-center py-6">
-					<Image
-						src="/assets/img/logo.png"
-						width={80}
-						height={80}
-						alt="Logo"
-						priority
-					/>
+					<Image src={logo} width={80} height={80} alt="Logo" priority />
 				</div>
 				<div
 					className={
@@ -49,7 +44,7 @@ function Header({ title }) {
 						<div className={scrolled ? "hidden" : ""}>Menu</div>
 						<div className={scrolled ? "" : "hidden"}>
 							<Image
-								src="/assets/img/logo.png"
+								src={logo}
 								alt="logo of marco"
 								width={40}
 								height={40}

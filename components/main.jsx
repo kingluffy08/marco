@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
 import bgHero from ".//../public/assets/img/hero-bg.jpg";
+import logo from ".//../public/assets/img/logo.png";
 const Navbar = () => {
 	let hide = "hidden";
 	const [Icon, setIcon] = useState(false);
@@ -40,13 +41,7 @@ const Navbar = () => {
 			className="h-[767px] bg-cover bg-center text-white"
 		>
 			<div className="flex items-center justify-center py-6">
-				<Image
-					src="/assets/img/logo.png"
-					alt="logo of marco"
-					width={80}
-					height={80}
-					priority
-				/>
+				<Image src={logo} alt="logo of marco" width={80} height={80} priority />
 			</div>
 			<div
 				className={
@@ -60,7 +55,7 @@ const Navbar = () => {
 						<div className={scrolled ? "hidden" : ""}>Menu</div>
 						<div className={scrolled ? "" : "hidden"}>
 							<Image
-								src="/../public/assets/img/logo.png"
+								src={logo}
 								alt="logo of marco"
 								width={40}
 								height={40}

@@ -2,6 +2,9 @@ import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
 import reviewBg from ".././/../public/assets/img/review-bg.jpg";
 import AboutImg from ".././/../public/assets/img/about-img.jpg";
+import s1 from ".././/../public/assets/img/about/s1.jpg";
+import s2 from ".././/../public/assets/img/about/s2.jpg";
+import s3 from ".././/../public/assets/img/about/s3.jpg";
 import { AiFillStar } from "react-icons/ai";
 import { AiOutlineStar } from "react-icons/ai";
 
@@ -10,21 +13,21 @@ function About() {
 		{
 			id: 0,
 			title: "Bread Fruit Cheese Sandwich",
-			img: "/assets/img/about/s1.jpg",
+			img: s1,
 			description:
 				"inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.",
 		},
 		{
 			id: 1,
 			title: "Beef Cutlet with Spring Onion",
-			img: "/assets/img/about/s2.jpg",
+			img: s2,
 			description:
 				"inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.",
 		},
 		{
 			id: 2,
 			title: "Meat with sauce & Vegetables",
-			img: "/assets/img/about/s3.jpg",
+			img: s3,
 			description:
 				"inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.",
 		},
@@ -96,7 +99,7 @@ export function AboutHeadline() {
 						width={500}
 						height={500}
 						alt="bacground hero"
-						property
+						priority
 					></Image>
 				</div>
 			</div>

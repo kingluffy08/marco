@@ -9,7 +9,7 @@ function About() {
 		{
 			id: 0,
 			title: "Bread Fruit Cheese Sandwich",
-			img: "/../public/assets/img/about/s1.jpg",
+			img: ".././/../public/assets/img/about/s1.jpg",
 			description:
 				"inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.",
 		},

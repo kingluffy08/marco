@@ -31,7 +31,7 @@ function Header({ title }) {
 			<div className="bg-black/40 px-6">
 				<div className="flex justify-center py-6">
 					<Image
-						src="/../public/assets/img/logo.png"
+						src="/assets/img/logo.png"
 						width="80"
 						height="80"
 						alt="Logo"
@@ -49,7 +49,7 @@ function Header({ title }) {
 						<div className={scrolled ? "hidden" : ""}>Menu</div>
 						<div className={scrolled ? "" : "hidden"}>
 							<Image
-								src="/../public/assets/img/logo.png"
+								src="/assets/img/logo.png"
 								alt="logo of marco"
 								width="40"
 								height="40"

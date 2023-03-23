@@ -10,7 +10,7 @@ export default function Gallery() {
 			description:
 				"Usage of the Internet is becoming more common due to rapid advance.",
 			type: "breakfast",
-			img: "/../public/assets/img/g1.jpg",
+			img: "/assets/img/g1.jpg",
 			id: 0,
 		},
 		{
@@ -19,7 +19,7 @@ export default function Gallery() {
 			description:
 				"Usage of the Internet is becoming more common due to rapid advance.",
 			type: "breakfast",
-			img: "/../public/assets/img/g2.jpg",
+			img: "/assets/img/g2.jpg",
 			id: 1,
 		},
 		{
@@ -28,7 +28,7 @@ export default function Gallery() {
 			description:
 				"Usage of the Internet is becoming more common due to rapid advance.",
 			type: "lunch",
-			img: "/../public/assets/img/g3.jpg",
+			img: "/assets/img/g3.jpg",
 			id: 2,
 		},
 		{
@@ -37,7 +37,7 @@ export default function Gallery() {
 			description:
 				"Usage of the Internet is becoming more common due to rapid advance.",
 			type: "dinner",
-			img: "/../public/assets/img/g4.jpg",
+			img: "/assets/img/g4.jpg",
 			id: 3,
 		},
 		{
@@ -46,7 +46,7 @@ export default function Gallery() {
 			description:
 				"Usage of the Internet is becoming more common due to rapid advance.",
 			type: "budget",
-			img: "/../public/assets/img/g5.jpg",
+			img: "/assets/img/g5.jpg",
 			id: 4,
 		},
 		{
@@ -55,7 +55,7 @@ export default function Gallery() {
 			description:
 				"Usage of the Internet is becoming more common due to rapid advance.",
 			type: "buffet",
-			img: "/../public/assets/img/g6.jpg",
+			img: "/assets/img/g6.jpg",
 			id: 5,
 		},
 	];

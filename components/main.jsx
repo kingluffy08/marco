@@ -33,7 +33,7 @@ const Navbar = () => {
 		Icon ? SetShowMenu("hidden") : SetShowMenu("okay");
 		Icon ? setIcon(false) : setIcon(true);
 	};
-	// const bgImage = ".//../public/assets/img/hero-bg.jpg";
+
 	return (
 		<nav
 			style={{ backgroundImage: `url(${bgHero.src})` }}
@@ -41,7 +41,7 @@ const Navbar = () => {
 		>
 			<div className="flex items-center justify-center py-6">
 				<Image
-					src="/../public/assets/img/logo.png"
+					src="/assets/img/logo.png"
 					alt="logo of marco"
 					width="80"
 					height="80"

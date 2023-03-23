@@ -106,7 +106,7 @@ export function ProfileInfo() {
 	const info = [
 		{
 			id: 0,
-			img: "/../public/assets/img/user.png",
+			img: "/assets/img/user.png",
 			name: "Hulda Sutton",
 			stars: 3,
 			description:
@@ -114,7 +114,7 @@ export function ProfileInfo() {
 		},
 		{
 			id: 1,
-			img: "/../public/assets/img/blog/c1.jpg",
+			img: "/assets/img/blog/c1.jpg",
 			name: "Jonhy Walker",
 			stars: 5,
 			description:
@@ -122,7 +122,7 @@ export function ProfileInfo() {
 		},
 		{
 			id: 2,
-			img: "/../public/assets/img/blog/c2.jpg",
+			img: "/assets/img/blog/c2.jpg",
 			name: "Axe Blake",
 			stars: 1,
 			description:

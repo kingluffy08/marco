@@ -32,8 +32,8 @@ function Header({ title }) {
 				<div className="flex justify-center py-6">
 					<Image
 						src="/assets/img/logo.png"
-						width="80"
-						height="80"
+						width={80}
+						height={80}
 						alt="Logo"
 						priority
 					/>
@@ -51,8 +51,8 @@ function Header({ title }) {
 							<Image
 								src="/assets/img/logo.png"
 								alt="logo of marco"
-								width="40"
-								height="40"
+								width={40}
+								height={40}
 								priority
 							/>
 						</div>

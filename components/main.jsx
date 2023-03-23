@@ -43,8 +43,8 @@ const Navbar = () => {
 				<Image
 					src="/assets/img/logo.png"
 					alt="logo of marco"
-					width="80"
-					height="80"
+					width={80}
+					height={80}
 					priority
 				/>
 			</div>
@@ -62,8 +62,8 @@ const Navbar = () => {
 							<Image
 								src="/../public/assets/img/logo.png"
 								alt="logo of marco"
-								width="40"
-								height="40"
+								width={40}
+								height={40}
 								priority
 							/>
 						</div>

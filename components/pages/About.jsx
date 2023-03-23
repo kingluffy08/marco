@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
 import reviewBg from ".././/../public/assets/img/review-bg.jpg";
+import AboutImg from ".././/../public/assets/img/about-img.jpg";
 import { AiFillStar } from "react-icons/ai";
 import { AiOutlineStar } from "react-icons/ai";
 
@@ -91,10 +92,11 @@ export function AboutHeadline() {
 				<div className="max-md:mt-10 md:w-1/2">
 					<Image
 						className=""
-						src="/../public/assets/img/about-img.jpg"
-						width="500"
-						height="500"
+						src={AboutImg}
+						width={500}
+						height={500}
 						alt="bacground hero"
+						property
 					></Image>
 				</div>
 			</div>

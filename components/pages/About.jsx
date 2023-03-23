@@ -49,8 +49,7 @@ function About() {
 					<div key={services.id} className="px-6 ">
 						<div className="overflow-hidden">
 							<Image
-								className="hover:scale-125 transition-transform
-									ease-in duration-150 cursor-pointer"
+								className="hover:scale-125 transition-transform"
 								src={services.img}
 								alt={services.title}
 								height="500"

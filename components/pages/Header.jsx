@@ -26,7 +26,7 @@ function Header({ title }) {
 
 	return (
 		<nav
-			className="z-50 text-white bg-cover bg-no-repeat bg-right-bottom"
+			className="z-20 relative text-white bg-cover bg-no-repeat bg-right-bottom"
 			style={{ backgroundImage: `url(${topBanner.src})` }}
 		>
 			<div className="bg-black/40 px-6">

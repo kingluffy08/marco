@@ -7,18 +7,21 @@ import { AiOutlineStar } from "react-icons/ai";
 function About() {
 	const services = [
 		{
+			id: 0,
 			title: "Bread Fruit Cheese Sandwich",
 			img: "/../public/assets/img/about/s1.jpg",
 			description:
 				"inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.",
 		},
 		{
+			id: 1,
 			title: "Beef Cutlet with Spring Onion",
 			img: "/../public/assets/img/about/s2.jpg",
 			description:
 				"inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.",
 		},
 		{
+			id: 2,
 			title: "Meat with sauce & Vegetables",
 			img: "/../public/assets/img/about/s3.jpg",
 			description:
@@ -39,7 +42,7 @@ function About() {
 			</div>
 			<div className="md:flex">
 				{services.map((services, index) => (
-					<div className="px-6 ">
+					<div key={services.id} className="px-6 ">
 						<div className="overflow-hidden">
 							<Image
 								className="hover:scale-125 transition-transform
@@ -213,6 +216,7 @@ export function ProfileInfo() {
 				<div className="flex justify-center gap-2 mt-20">
 					{info.map((data, i) => (
 						<i
+							key={data.id}
 							onClick={() => {
 								handleClick(i);
 							}}
@@ -228,5 +232,3 @@ export function ProfileInfo() {
 		</>
 	);
 }
-
-export function slider() {}

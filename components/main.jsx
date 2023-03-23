@@ -45,6 +45,7 @@ const Navbar = () => {
 					alt="logo of marco"
 					width="80"
 					height="80"
+					priority
 				/>
 			</div>
 			<div
@@ -63,6 +64,7 @@ const Navbar = () => {
 								alt="logo of marco"
 								width="40"
 								height="40"
+								priority
 							/>
 						</div>
 					</div>

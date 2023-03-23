@@ -35,6 +35,7 @@ function Header({ title }) {
 						width="80"
 						height="80"
 						alt="Logo"
+						priority
 					/>
 				</div>
 				<div
@@ -52,6 +53,7 @@ function Header({ title }) {
 								alt="logo of marco"
 								width="40"
 								height="40"
+								priority
 							/>
 						</div>
 						<div>

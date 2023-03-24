@@ -5,6 +5,9 @@ import AboutImg from ".././/../public/assets/img/about-img.jpg";
 import s1 from ".././/../public/assets/img/about/s1.jpg";
 import s2 from ".././/../public/assets/img/about/s2.jpg";
 import s3 from ".././/../public/assets/img/about/s3.jpg";
+import user from ".././/../public/assets/img/user.png";
+import c1 from ".././/../public/assets/img/blog/c1.jpg";
+import c2 from ".././/../public/assets/img/blog/c2.jpg";
 import { AiFillStar } from "react-icons/ai";
 import { AiOutlineStar } from "react-icons/ai";
 
@@ -110,7 +113,7 @@ export function ProfileInfo() {
 	const info = [
 		{
 			id: 0,
-			img: "/assets/img/user.png",
+			img: user,
 			name: "Hulda Sutton",
 			stars: 3,
 			description:
@@ -118,7 +121,7 @@ export function ProfileInfo() {
 		},
 		{
 			id: 1,
-			img: "/assets/img/blog/c1.jpg",
+			img: c1,
 			name: "Jonhy Walker",
 			stars: 5,
 			description:
@@ -126,7 +129,7 @@ export function ProfileInfo() {
 		},
 		{
 			id: 2,
-			img: "/assets/img/blog/c2.jpg",
+			img: c2,
 			name: "Axe Blake",
 			stars: 1,
 			description:

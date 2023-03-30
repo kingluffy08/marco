@@ -19,6 +19,7 @@ function Header({ title }) {
 	});
 	const handleScroll = () => {
 		scrollY > 130 ? setScrolled(true) : setScrolled(false);
+		console.log(scrollY);
 	};
 	const menuOnClick = () => {
 		setOnMobile(!onMobile);
@@ -36,7 +37,7 @@ function Header({ title }) {
 				<div
 					className={
 						scrolled
-							? " py-4 fixed left-0 top-0 bg-black/60 w-full px-4 ease-in duration-100"
+							? " py-4 xl:py-6 fixed left-0 top-0 bg-black/60 w-full px-4 ease-in duration-100"
 							: " border-y py-4 ease-in duration-100"
 					}
 				>
@@ -63,7 +64,7 @@ function Header({ title }) {
 						</div>
 					</div>
 					<div className="max-md:hidden">
-						<ul className="text-white flex justify-center text-xs sm:space-x-4 md:space-x-6 lg:space-x-8 ">
+						<ul className="text-white flex justify-center text-xs 2xl:text-base sm:space-x-4 md:space-x-6 lg:space-x-8 ">
 							<Link href="/">
 								<li className="hover:text-[#f42f2c]">HOME</li>
 							</Link>

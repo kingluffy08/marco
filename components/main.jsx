@@ -46,7 +46,7 @@ const Navbar = () => {
 			<div
 				className={
 					scrolled
-						? "py-4 fixed left-0 top-0 bg-black/60 w-full px-4 ease-in duration-100"
+						? "py-4 xl:py-6 fixed left-0 top-0 bg-black/60 w-full px-4 ease-in duration-100"
 						: "border-y py-4 ease-in duration-100 mx-6"
 				}
 			>
@@ -74,7 +74,7 @@ const Navbar = () => {
 					</div>
 				</div>
 				<div className="max-sm:hidden w-full">
-					<ul className="text-white flex justify-center text-xs sm:space-x-4 md:space-x-6 lg:space-x-8">
+					<ul className="text-white flex justify-center text-xs 2xl:text-base sm:space-x-4 md:space-x-6 lg:space-x-8">
 						<Link href="/">
 							<li className="hover:text-[#f42f2c] font-medium">HOME</li>
 						</Link>
